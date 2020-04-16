@@ -10,10 +10,11 @@
 ### 项目启动
 ```
 一.three.js和flv.js模块的引入，首先输入命令:
-1.npm install three
-2.npm install --save flv.js
-二.（静态文件放在public目录下），进入 ..\webplayer\src\components\index.vue下使用模块 npm bulid 运行编译项目。
-三.编译成功后使用npm serve 启动项目（不能在本地运行，需要搭建http服务器）
+1.在src/components/目录下terminal:npm install three
+2.在src/components/目录下terminal:npm install --save flv.js
+二.（静态文件放在public目录下），src/components/目录下使用编辑器修改 scripts 为 bulid 运行编译项目。
+
+三.编译成功后使用编辑器修改 scripts 为 serve 启动项目（不能在本地运行，需要搭建http服务器）
 ```
 
 ### 项目服务器搭建（nginx）
