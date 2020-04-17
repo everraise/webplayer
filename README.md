@@ -1,10 +1,13 @@
 # webplayer
 
-## 项目环境
+## 项目环境（默认idea编译器）
 ```
-1.安装node环境，下载地址为：https://nodejs.org/en/
-2.安装npm
-3.编辑器插件下载vue,安装好后重启编辑器。
+1. 安装node环境，下载地址为：https://nodejs.org/en/
+2. 安装npm
+3. git clone https://github.com/everraise/webplayer.git
+4. 使用idea -> open -> [webplayer project path]
+5. 安装vue插件，安装方式：idea -> file -> setting -> plugins 安裝vue
+6. 重启 idea 打开[webplayer project path]
 ```
 
 ### 项目启动
